@@ -3,7 +3,7 @@
 #include <iterator>
 
 
-int bin_pow(int a, int n)//Юинарное возведение в степень
+int bin_pow(int a, int n)//Бинарное возведение в степень
 {
     if(n == 0) return 1;
     if(!n%2) return bin_pow(a, n/2) * bin_pow(a, n/2);
