@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Algos.h"
+#include <string>
 
 using namespace std;
 
@@ -18,7 +19,21 @@ int main()
     cout << "LCM 0f " << a << " and " << b << " = " << lcm(a, b) << endl;
 
     char str[80] = "aaabaab";
+    cout << "z-function of " << str << " is:\n";
     z_function(str, 1);
+
+    char str1[80] = "But can you find a word in sentence?";//Yeah!
+    char str2[80] = "word";
+
+    //strcat(str1, str2);
+    //strcat(str1, '@');
+    //strcpy(str1, str2);
+    //cout << strlen(str1) << "\n";
+    //strrev(str1);
+    //to_upper(str1);
+    //to_lower(str1);
+    //cout << substr(str1, str2) << "\n";
+    //cout << str1 << "\n";
 
 
     return 0;
