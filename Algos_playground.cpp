@@ -21,9 +21,12 @@ int main()
     char str[80] = "aaabaab";
     cout << "z-function of " << str << " is:\n";
     z_function(str, 1);
+    cout << "\n";
 
     char str1[80] = "But can you find a word in sentence?";//Yeah!
     char str2[80] = "word";
+    char palindrome[80] = "racecar";
+
 
     //strcat(str1, str2);
     //strcat(str1, '@');
@@ -34,7 +37,7 @@ int main()
     //to_lower(str1);
     //cout << substr(str1, str2) << "\n";
     //cout << str1 << "\n";
-
+    //cout << is_palindrome(palindrome) << "\n";
 
     return 0;
 }

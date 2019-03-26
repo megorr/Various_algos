@@ -184,3 +184,14 @@ int substr(char *str1, char *str2)//Returns index of the begining of str2 in str
     }
     return -1;
 }
+
+bool is_palindrome(char *str)//Checks whether str is palindrome or not
+{
+    int len = strlen(str);
+
+    for (int i = 0; i < len / 2; ++i)
+    {
+        if(str[i] != str[len - i - 1]) return 0;
+    }
+    return 1;
+}
