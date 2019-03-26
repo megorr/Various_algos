@@ -169,7 +169,7 @@ void to_lower(char *str)//Lower case char array
     }
 }
 
-int substr(char *str1, char *str2)//Returns index of the beginning of str2 in str1, or -1 if no str2 in str1
+int substr(char *str1, char *str2)//Returns index of the begining of str2 in str1, or -1 if no str2 in str1
 {
     int len = strlen(str2);
 
